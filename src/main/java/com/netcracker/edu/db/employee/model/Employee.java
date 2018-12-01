@@ -1,10 +1,10 @@
 package com.netcracker.edu.db.employee.model;
 
+import lombok.Data;
+
 import java.math.BigInteger;
 
-/**
- * TODO: Add needed getters, setters and so on
- */
+@Data
 public class Employee {
     private BigInteger id;
     private String name;
